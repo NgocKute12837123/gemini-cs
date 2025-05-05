@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEMINI Customer Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>GEMINI Customer Service</h1>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to GEMINI Support</h2>
+            <p>We are here to assist you 24/7 with all your needs. Experience world-class customer service with GEMINI.
+            </p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h3>Technical Support</h3>
+                    <p>Resolve technical issues quickly with our expert team available round the clock.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Billing Assistance</h3>
+                    <p>Need help with payments or invoices? Our team ensures smooth billing processes.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Product Inquiries</h3>
+                    <p>Have questions about GEMINI products? We provide detailed guidance and support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>How do I reset my account password?</h3>
+                <p>Visit the account settings page and follow the "Forgot Password" link to reset it.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What are your support hours?</h3>
+                <p>We offer 24/7 customer support to assist you anytime.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How can I contact the support team?</h3>
+                <p>Use our live chat, email, or phone options listed in the Contact section.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Reach out to us via the following methods:</p>
+            <ul>
+                <li>Email: support@gemini.com</li>
+                <li>Phone: +1-800-GEMINI</li>
+                <li>Live Chat: Available 24/7</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 GEMINI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
