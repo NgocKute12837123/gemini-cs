@@ -184,3 +184,22 @@ main {
         width: fit-content;
     }
 }
+
+.call-now-bar {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.call-now-bar .cta-call-button {
+    background-color: #00d1b2;
+    color: #1a1a1a;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.call-now-bar .cta-call-button:hover {
+    background-color: #00b39f;
+}
